@@ -1,0 +1,16 @@
+oracle:
+        host: 10.10.11.202
+        port: 1521
+        username: root
+        password: root11202
+        db: rac1
+
+
+hive:
+        host: 10.10.11.1100
+        port: 10001
+        user: zheng.xf
+        password: zheng.xf
+        db: db01
+        
+
