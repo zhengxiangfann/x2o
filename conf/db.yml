@@ -7,7 +7,7 @@ oracle:
 
 
 hive:
-        host: 10.10.11.1100
+        host: 10.10.11.110
         port: 10001
         user: zheng.xf
         password: zheng.xf
