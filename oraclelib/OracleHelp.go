@@ -24,13 +24,13 @@ func NewOracle(conf map[string]string) IOracle {
 	password := conf["password"]
 	host := conf["host"]
 	port, _ := strconv.Atoi(conf["port"])
-	defaultdb := conf["defaultdb"]
+	defaultDB := conf["defaultdb"]
 	dsn := fmt.Sprintf("%s/%s@%s:%d/%s",
 		user,
 		password,
 		host,
 		port,
-		defaultdb,
+		defaultDB,
 	)
 
 	db, err := sql.Open("oci8", dsn)

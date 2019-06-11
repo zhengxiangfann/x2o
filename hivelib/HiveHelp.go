@@ -23,7 +23,6 @@ type hive struct {
 }
 
 func NewHive(conf map[string]string) IHive {
-
 	configuration := gohive.NewConnectConfiguration()
 	configuration.Service = conf["service"]
 	configuration.Username = conf["username"]
@@ -128,6 +127,9 @@ func (h *hive) Read(QuerySql string) []map[string]interface{} {
 func Engine() (err error){
 	return nil
 }
+
+
+
 
 //
 //func main() {

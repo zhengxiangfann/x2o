@@ -18,7 +18,6 @@ type Config struct {
 	}
 }
 
-
 type Config1 struct {
 	Node []struct {
 		Host string
